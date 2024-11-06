@@ -26,3 +26,20 @@
 /*#password-div{*/
 /*    position: absolute;*/
 /*}*/
+
+#login-button,#signup-button{
+    background: rgb(59, 228, 119);
+    border-color: rgb(59, 228, 119);
+    color: black;
+    margin: 1%;
+}
+#button-div{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 5vh;
+}
+
