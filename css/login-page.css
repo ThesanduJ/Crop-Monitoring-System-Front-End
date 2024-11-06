@@ -1,6 +1,17 @@
 #body{
     background: rgba(0, 0, 0, 0.84);
 }
+#body>header{
+    width: auto;
+    height: auto;
+}
+#body>header>img{
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    width: 5%;
+    height: 10%;
+}
 #login{
     background: rgba(0, 0, 0, 0.31);
     width: 60%;
