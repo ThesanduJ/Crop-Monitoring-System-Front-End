@@ -1,0 +1,23 @@
+#login{
+    background: #efe0ab;
+    width: 79%;
+    height: 49%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    margin: auto;
+}
+#login-form{
+    width: 45%;
+    height: 45%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+/*#password-div{*/
+/*    position: absolute;*/
+/*}*/
