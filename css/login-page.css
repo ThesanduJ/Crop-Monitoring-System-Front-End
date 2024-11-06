@@ -19,8 +19,8 @@
     position: absolute;
     right: 0;
     left: 0;
-    top: 0;
-    bottom: 0;
+    top: 35%;
+    /*bottom: 0;*/
     margin: auto;
 }
 /*#password-div{*/
@@ -31,7 +31,7 @@
     background: rgb(59, 228, 119);
     border-color: rgb(59, 228, 119);
     color: black;
-    margin: 1%;
+    margin: 3%;
 }
 #button-div{
     position: absolute;
@@ -41,5 +41,15 @@
     right: 0;
     margin: auto;
     bottom: 5vh;
+}
+#login-title{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 7%;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    color: white;
 }
 
