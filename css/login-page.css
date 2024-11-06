@@ -11,6 +11,7 @@
     bottom: 0;
     position: absolute;
     margin: auto;
+    border-radius: 2%;
 }
 #login-form{
     width: 45%;
