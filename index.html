@@ -12,7 +12,25 @@
     <link rel="icon" type="image/x-icon" href="assets/logo/green-shadow-high-resolution-logo-transparent.png">
     <link rel="stylesheet" href="css/login-page.css">
 </head>
-<body>
+<body id="body">
+<section>
+    <div id="login" class="container">
+        <div id="login-form" class="container">
+        <div id="email-div" class="form-floating mb-3">
+            <input style="margin-bottom: 5vh" type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label  for="floatingInput">Email address</label>
+        </div>
+        <div id="password-div" class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password</label>
+        </div>
+        </div>
+        <div id="button-div" class="d-grid gap-2 d-md-block container ">
+            <button id="login-button" class="btn btn-primary btn-lg container" type="button">Login</button>
+            <button id="signup-button" class="btn btn-primary btn-lg container" type="button">Sign-Up</button>
+        </div>
+    </div>
+</section>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
