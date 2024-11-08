@@ -116,5 +116,10 @@
     box-shadow: rgb(59, 228, 119) 0px 5px 15px;
     font-weight: bold;
 }
+#login-button:active, #signup-button:active {
+    box-shadow:  0px 0px 0px;
+    font-weight: normal;
+}
+
 
 
