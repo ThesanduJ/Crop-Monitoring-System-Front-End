@@ -6,19 +6,14 @@
     height: 100vh;
     z-index: 100;
     padding: 20px 0;
-    background-color:/* #f8f9fa*/black;
+    background-color: /* #f8f9fa*/ black;
     border-right: 1px solid #dee2e6;
 }
 
 .sidebar .nav-link {
     padding: 12px 20px;
-    color: /*#333*/whitesmoke;
+    color: /*#333*/ whitesmoke;
     transition: all 0.3s;
-}
-
-.sidebar .nav-link:hover {
-    background-color: #e9ecef;
-    color: #000;
 }
 
 .company-name {
@@ -32,9 +27,13 @@
 }
 
 
-#logo-new{
+#logo-new {
     position: relative;
     left: 0;
     right: 0;
     margin: auto;
+}
+
+#sidebar-menu > li > a > img:hover {
+    box-shadow: rgba(255, 255, 255, 0.49) 0px 54px 55px, rgba(255, 255, 255, 0.4) 0px -12px 30px, rgba(255, 255, 255, 0.52) 0px 4px 6px, rgba(255, 255, 255, 0.51) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
