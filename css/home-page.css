@@ -12,15 +12,16 @@
 
 .sidebar .nav-link {
     padding: 12px 20px;
-    color: /*#333*/whitesmoke;
+    color: whitesmoke;
     transition: all 0.3s;
 }
 
-.sidebar .nav-link:hover {
-    background-color: rgba(233, 236, 239, 0.27);
-    color: #000;
+.sidebar .nav-link>img {
+    filter: brightness(30%);
 }
-
+.sidebar .nav-link>img:hover {
+    filter: brightness(100%);
+}
 
 .company-name {
     padding: 15px 20px;
