@@ -113,16 +113,74 @@
     </div>
 </div>
 
-<!------------------------------------------------------------>
+<!-----------------dashboard------------------------------->
 
 <section id="dashboard-section"></section>
 
-<!------------------------------------------------------------>
+<!-----------------field---------------------------->
 
 <section id="field-section">
     <div id="field-heading">
         <h2>Field Management</h2>
     </div>
+    <div class="form-floating mb-3" id="field-id">
+        <input type="text" class="form-control " id="floatingInput" placeholder="F00A1212212">
+        <label for="floatingInput">Field ID</label>
+        <div id="validationServer03Feedback" class="invalid-feedback">
+<!--            error msg-->
+        </div>
+    </div>
+
+    <div class="form-floating mb-3" id="field-name">
+        <input type="text" class="form-control " id="floatingInput" placeholder="Mix Palate A ">
+        <label for="floatingInput">Field Name</label>
+        <div id="validationServer03Feedback" class="invalid-feedback">
+            <!--            error msg-->
+        </div>
+    </div>
+
+    <div class="form-floating mb-3" id="field-location">
+        <input type="text" class="form-control " id="floatingInput" placeholder="panadura " onclick="getLocation()">
+        <label for="floatingInput">Location/Address</label>
+        <div id="validationServer03Feedback" class="invalid-feedback">
+            <!--            error msg-->
+        </div>
+    </div>
+
+    <div class="form-floating mb-3" id="field-size">
+        <input type="number" class="form-control " id="floatingInput" placeholder="103.12">
+        <label for="floatingInput">Field Size</label>
+        <div id="validationServer03Feedback" class="invalid-feedback">
+            <!--            error msg-->
+        </div>
+    </div>
+
+    <select class="form-select " aria-label="Default select example" id="field-crops" >
+        <option value="" disabled selected>Select the Crop</option>
+        <option value="1">Rice</option>
+    </select>
+
+    <select class="form-select " aria-label="Default select example" id="field-staff" >
+        <option value="" disabled selected>Select the Staff</option>
+        <option value="1">S001</option>
+    </select>
+
+    <div class="form-floating mb-3" id="field-image-01">
+        <input type="file" class="form-control  " id="floatingInput" >
+        <label for="floatingInput">Field Image-01</label>
+        <div id="validationServer03Feedback" class="invalid-feedback">
+            <!--            error msg-->
+        </div>
+    </div>
+
+    <div class="form-floating mb-3" id="field-image-02">
+        <input type="file" class="form-control " id="floatingInput" >
+        <label for="floatingInput">Field Image-02</label>
+        <div id="validationServer03Feedback" class="invalid-feedback">
+            <!--            error msg-->
+        </div>
+    </div>
+
 </section>
 <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
 
