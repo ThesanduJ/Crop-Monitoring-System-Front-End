@@ -42,4 +42,7 @@ const heightSize=x.offsetHeight;
 const parent2 = document.querySelector("#field-crops");
 parent2.style.height = heightSize + "px";
 
+
+const parent3 = document.querySelector("#field-staff");
+parent3.style.height = heightSize + "px";
 //------------------------------------------------------------
