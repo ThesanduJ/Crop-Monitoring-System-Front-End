@@ -36,3 +36,10 @@ function showError(error) {
     }
 }
 
+//------------------------get height size--------------------
+
+const heightSize=x.offsetHeight;
+const parent2 = document.querySelector("#field-crops");
+parent2.style.height = heightSize + "px";
+
+//------------------------------------------------------------
