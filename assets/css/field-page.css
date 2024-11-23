@@ -163,16 +163,16 @@ h2 {
     margin: auto;
     right: 0;
 }
-#img-view-btn{
+#img-view-btn,#img-view-btn2{
     background: rgb(59, 228, 119);
     border-color: rgb(59, 228, 119);
     color: black;
 }
-#img-view-btn:hover{
+#img-view-btn:hover,#img-view-btn2:hover{
     box-shadow: rgb(59, 228, 119) 0px 5px 15px;
     font-weight: bold;
 }
-#img-view-btn:active {
+#img-view-btn:active,#img-view-btn2:active {
     box-shadow:  0px 0px 0px;
     font-weight: normal;
     color: white;
@@ -200,9 +200,9 @@ h2 {
     font-weight: normal;
     color: white;
 }
-#img-delete-btn{
+#img-delete-btn,#img-delete-btn2{
     filter: brightness(10%);
 }
-#img-delete-btn:hover{
+#img-delete-btn:hover,#img-delete-btn2:hover{
     filter: brightness(100%);
 }
