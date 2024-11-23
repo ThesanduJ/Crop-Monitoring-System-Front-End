@@ -151,3 +151,15 @@ h2 {
 #field-image-02>input{
     border: black solid 2px;
 }
+
+/*------------------------------------------------------------*/
+
+#field-table{
+    width: 86%;
+    height: auto;
+    position: absolute;
+    top: 71%;
+    left: 0;
+    margin: auto;
+    right: 0;
+}
