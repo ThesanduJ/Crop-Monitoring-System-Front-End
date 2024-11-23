@@ -206,3 +206,7 @@ h2 {
 #img-delete-btn:hover,#img-delete-btn2:hover{
     filter: brightness(100%);
 }
+
+tbody>tr:hover{
+    border: rgb(59, 228, 119) 2px solid;
+}
