@@ -1,0 +1,198 @@
+#crop-section{
+    width: calc(100vw - 110px);
+    height: 100vh;
+    /*background: rgba(0, 0, 0, 0.47);*/
+    position: absolute;
+    top: 0;
+    left: 110px;
+    bottom: 0;
+    margin: auto;
+}
+
+#crop-heading{
+    width: 89%;
+    height: 10%;
+    border-radius: 17px;
+    /*background: rgba(255, 255, 255, 0.58);*/
+    position: absolute;
+    top: 5%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    box-shadow: rgb(59, 228, 119) 0px -50px 36px -28px inset;
+}
+
+h2 {
+    color: #000000;
+    width: fit-content;
+    height: fit-content;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 4%;
+    position: absolute;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
+}
+/*------------------------------------------------------------------------------*/
+#crop-id {
+    width: 25vw;
+    height: auto;
+    position: absolute;
+    top: 27%;
+    left: 11%;
+    margin: auto;
+}
+#crop-id>input{
+    border: black solid 2px;
+}
+/*------------------------------------------------------------------------------*/
+
+#crop-common-name {
+    width: 25vw;
+    height: auto;
+    position: absolute;
+    top: 27%;
+    left: 40%;
+    margin: auto;
+}
+#crop-common-name>input{
+    border: black solid 2px;
+}
+
+/*------------------------------------------------------------------------------*/
+
+#crop-scientific-name{
+    width: 18vw;
+    height: auto;
+    position: absolute;
+    top: 27%;
+    left: 69%;
+    margin: auto;
+}
+
+#crop-scientific-name>input{
+    border: black solid 2px;
+}
+
+
+/*------------------------------------------------------------------------------*/
+
+#crop-category {
+    width: 25vw;
+    height: auto;
+    position: absolute;
+    top: 40%;
+    left: 11%;
+    margin: auto;
+}
+#crop-category>input{
+    border: black solid 2px;
+}
+
+/*------------------------------------------------------------------------------*/
+
+#crop-season {
+    width: 25vw;
+    height: auto;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    margin: auto;
+}
+#crop-season>input{
+    border: black solid 2px;
+}
+
+/*------------------------------------------------------------------------------*/
+
+
+#crop-field{
+    width: 18vw;
+    /*height: auto;*/
+    position: absolute;
+    top: 40%;
+    left: 69%;
+    margin: auto;
+}
+
+#crop-field{
+    border: black solid 2px;
+}
+
+/*------------------------------------------------------------------------------*/
+
+
+#crop-image {
+    width: 25vw;
+    height: auto;
+    position: absolute;
+    top: 53%;
+    left: 11%;
+    margin: auto;
+}
+#crop-image>input{
+    border: black solid 2px;
+}
+/*------------------------------------------------------------------------------*/
+
+
+#crop-table{
+    width: 86%;
+    height: auto;
+    position: absolute;
+    top: 71%;
+    left: 0;
+    margin: auto;
+    right: 0;
+}
+#img-view-btn,#img-view-btn2{
+    background: rgb(59, 228, 119);
+    border-color: rgb(59, 228, 119);
+    color: black;
+}
+#img-view-btn:hover,#img-view-btn2:hover{
+    box-shadow: rgb(59, 228, 119) 0px 5px 15px;
+    font-weight: bold;
+}
+#img-view-btn:active,#img-view-btn2:active {
+    box-shadow:  0px 0px 0px;
+    font-weight: normal;
+    color: white;
+}
+
+/*------------------------------------------------------------*/
+#crop-save-btn{
+    width: 18vw;
+    height: auto;
+    position: absolute;
+    top: 54%;
+    left: 69%;
+    margin: auto;
+
+    background: rgb(59, 228, 119);
+    border-color: rgb(59, 228, 119);
+    color: black;
+}
+#crop-save-btn:hover{
+    box-shadow: rgb(59, 228, 119) 0px 5px 15px;
+    font-weight: bold;
+}
+#crop-save-btn:active{
+    box-shadow:  0px 0px 0px;
+    font-weight: normal;
+    color: white;
+}
+#img-delete-btn,#img-delete-btn2{
+    filter: brightness(10%);
+}
+#img-delete-btn:hover,#img-delete-btn2:hover{
+    filter: brightness(100%);
+}
+
+tbody>tr:hover{
+    border: rgb(59, 228, 119) 2px solid;
+}
