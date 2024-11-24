@@ -10,6 +10,7 @@
     <link rel="icon" type="image/x-icon" href="../assets/logo/green-shadow-high-resolution-logo-transparent.png">
     <link rel="stylesheet" href="../assets/css/home-page.css">
     <link rel="stylesheet" href="../assets/css/field-page.css">
+    <link rel="stylesheet" href="../assets/css/crop-page.css">
 </head>
 <body>
 <nav>
@@ -89,10 +90,7 @@
         </ul>
     </div>
 </nav>
-<section id="home-section"></section>
-
 <!-----------------User model------------------->
-
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -112,6 +110,10 @@
         </div>
     </div>
 </div>
+<!----------------------------------------------------->
+
+<section id="home-section"></section>
+
 
 <!-----------------dashboard------------------------------->
 
@@ -119,93 +121,209 @@
 
 <!-----------------field---------------------------->
 
-<section id="field-section">
-    <div id="field-heading">
-        <h2>Field Management</h2>
+<!--<section id="field-section">-->
+<!--    <div id="field-heading">-->
+<!--        <h2>Field Management</h2>-->
+<!--    </div>-->
+<!--    <div class="form-floating mb-3" id="field-id">-->
+<!--        <input type="text" class="form-control " id="floatingInput1" placeholder="F00A1212212">-->
+<!--        <label for="floatingInput1">Field ID</label>-->
+<!--        <div id="validationServer03Feedback1" class="invalid-feedback">-->
+<!--            &lt;!&ndash;            error msg&ndash;&gt;-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--    <div class="form-floating mb-3" id="field-name">-->
+<!--        <input type="text" class="form-control " id="floatingInput2" placeholder="Mix Palate A ">-->
+<!--        <label for="floatingInput2">Field Name</label>-->
+<!--        <div id="validationServer03Feedback2" class="invalid-feedback">-->
+<!--            &lt;!&ndash;            error msg&ndash;&gt;-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--    <div class="form-floating mb-3" id="field-location">-->
+<!--        <input type="text" class="form-control " id="floatingInput3" placeholder="panadura " onclick="getLocation()">-->
+<!--        <label for="floatingInput3">Location/Address</label>-->
+<!--        <div id="validationServer03Feedback3" class="invalid-feedback">-->
+<!--            &lt;!&ndash;            error msg&ndash;&gt;-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--    <div class="form-floating mb-3" id="field-size">-->
+<!--        <input type="number" class="form-control " id="floatingInput4" placeholder="103.12">-->
+<!--        <label for="floatingInput4">Field Size</label>-->
+<!--        <div id="validationServer03Feedback4" class="invalid-feedback">-->
+<!--            &lt;!&ndash;            error msg&ndash;&gt;-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--    <select class="form-select " aria-label="Default select example" id="field-crops">-->
+<!--        <option value="" disabled selected>Select the Crop</option>-->
+<!--        <option value="1">Rice</option>-->
+<!--    </select>-->
+
+<!--    <select class="form-select " aria-label="Default select example" id="field-staff">-->
+<!--        <option value="" disabled selected>Select the Staff</option>-->
+<!--        <option value="1">S001</option>-->
+<!--    </select>-->
+
+<!--    <div class="form-floating mb-3" id="field-image-01">-->
+<!--        <input type="file" class="form-control  " id="floatingInput5">-->
+<!--        <label for="floatingInput5">Field Image-01</label>-->
+<!--        <div id="validationServer03Feedback5" class="invalid-feedback">-->
+<!--            &lt;!&ndash;            error msg&ndash;&gt;-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--    <div class="form-floating mb-3" id="field-image-02">-->
+<!--        <input type="file" class="form-control " id="floatingInput6">-->
+<!--        <label for="floatingInput6">Field Image-02</label>-->
+<!--        <div id="validationServer03Feedback6" class="invalid-feedback">-->
+<!--            &lt;!&ndash;            error msg&ndash;&gt;-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--    <button type="button" class="btn btn-primary" id="field-save-btn">Save</button>-->
+
+<!--    <table class="table" id="field-table">-->
+<!--        <thead class="table-dark">-->
+<!--        <tr>-->
+<!--            <th scope="col">#</th>-->
+<!--            <th scope="col">Field ID</th>-->
+<!--            <th scope="col">Field Name</th>-->
+<!--            <th scope="col">Location</th>-->
+<!--            <th scope="col">Field Size</th>-->
+<!--            <th scope="col">Crop Type</th>-->
+<!--            <th scope="col">Staff</th>-->
+<!--            <th scope="col">Images</th>-->
+<!--            <th scope="col">Functions</th>-->
+<!--        </tr>-->
+<!--        </thead>-->
+<!--        <tbody>-->
+<!--        <tr>-->
+<!--            <th scope="row">1</th>-->
+<!--            <td>F001</td>-->
+<!--            <td>Rice Palate A</td>-->
+<!--            <td>Panadura</td>-->
+<!--            <td>2000</td>-->
+<!--            <td>Rice</td>-->
+<!--            <td>Manager</td>-->
+<!--            <td>-->
+<!--                <button type="button" class="btn btn-primary" id="img-view-btn">View</button>-->
+<!--            </td>-->
+<!--            <td>-->
+<!--                <img width="39" height="39" src="https://img.icons8.com/glyph-neue/64/FA5252/delete-trash.png"-->
+<!--                     alt="delete" id="img-delete-btn"/>-->
+<!--            </td>-->
+<!--        </tr>-->
+
+<!--        <tr>-->
+<!--            <th scope="row">2</th>-->
+<!--            <td>F002</td>-->
+<!--            <td>Kadala Palate A</td>-->
+<!--            <td>Kaluthara</td>-->
+<!--            <td>1000</td>-->
+<!--            <td>Kadala</td>-->
+<!--            <td>Senior-Manager</td>-->
+<!--            <td>-->
+<!--                <button type="button" class="btn btn-primary" id="img-view-btn2">View</button>-->
+<!--            </td>-->
+<!--            <td>-->
+<!--                <img width="39" height="39" src="https://img.icons8.com/glyph-neue/64/FA5252/delete-trash.png"-->
+<!--                     alt="delete" id="img-delete-btn2"/>-->
+<!--            </td>-->
+<!--        </tr>-->
+<!--        </tbody>-->
+<!--    </table>-->
+
+<!--</section>-->
+
+<!------------------crop section------------------>
+<section id="crop-section">
+    <div id="crop-heading">
+        <h2>Crop Management</h2>
     </div>
-    <div class="form-floating mb-3" id="field-id">
-        <input type="text" class="form-control " id="floatingInput1" placeholder="F00A1212212">
-        <label for="floatingInput1">Field ID</label>
+    <div class="form-floating mb-3" id="crop-id">
+        <input type="text" class="form-control " id="floatingInput1" placeholder="C00A1212212">
+        <label for="floatingInput1">Crop ID</label>
         <div id="validationServer03Feedback1" class="invalid-feedback">
             <!--            error msg-->
         </div>
     </div>
 
-    <div class="form-floating mb-3" id="field-name">
-        <input type="text" class="form-control " id="floatingInput2" placeholder="Mix Palate A ">
-        <label for="floatingInput2">Field Name</label>
+    <div class="form-floating mb-3" id="crop-common-name">
+        <input type="text" class="form-control " id="floatingInput2" placeholder="Rice">
+        <label for="floatingInput2">Crop Common Name</label>
         <div id="validationServer03Feedback2" class="invalid-feedback">
             <!--            error msg-->
         </div>
     </div>
 
-    <div class="form-floating mb-3" id="field-location">
-        <input type="text" class="form-control " id="floatingInput3" placeholder="panadura " onclick="getLocation()">
-        <label for="floatingInput3">Location/Address</label>
+    <div class="form-floating mb-3" id="crop-scientific-name">
+        <input type="text" class="form-control " id="floatingInput3" placeholder="">
+        <label for="floatingInput3">Crop Scientific Name</label>
         <div id="validationServer03Feedback3" class="invalid-feedback">
             <!--            error msg-->
         </div>
     </div>
 
-    <div class="form-floating mb-3" id="field-size">
-        <input type="number" class="form-control " id="floatingInput4" placeholder="103.12">
-        <label for="floatingInput4">Field Size</label>
+    <div class="form-floating mb-3" id="crop-category">
+        <input type="text" class="form-control " id="floatingInput4" placeholder="">
+        <label for="floatingInput4">Crop Category</label>
         <div id="validationServer03Feedback4" class="invalid-feedback">
             <!--            error msg-->
         </div>
     </div>
 
-    <select class="form-select " aria-label="Default select example" id="field-crops">
-        <option value="" disabled selected>Select the Crop</option>
-        <option value="1">Rice</option>
+    <div class="form-floating mb-3" id="crop-season">
+        <input type="text" class="form-control" id="floatingInput7" placeholder="">
+        <label for="floatingInput7">Crop Season</label>
+        <div id="validationServer03Feedback7" class="invalid-feedback">
+            <!--            error msg-->
+        </div>
+    </div>
+
+
+    <select class="form-select " aria-label="Default select example" id="crop-field">
+        <option value="" disabled selected>Select the Field</option>
+        <option value="1">Rice A Field</option>
     </select>
 
-    <select class="form-select " aria-label="Default select example" id="field-staff">
-        <option value="" disabled selected>Select the Staff</option>
-        <option value="1">S001</option>
-    </select>
 
-    <div class="form-floating mb-3" id="field-image-01">
+    <div class="form-floating mb-3" id="crop-image">
         <input type="file" class="form-control  " id="floatingInput5">
-        <label for="floatingInput5">Field Image-01</label>
+        <label for="floatingInput5">Crop Image</label>
         <div id="validationServer03Feedback5" class="invalid-feedback">
             <!--            error msg-->
         </div>
     </div>
 
-    <div class="form-floating mb-3" id="field-image-02">
-        <input type="file" class="form-control " id="floatingInput6">
-        <label for="floatingInput6">Field Image-02</label>
-        <div id="validationServer03Feedback6" class="invalid-feedback">
-            <!--            error msg-->
-        </div>
-    </div>
+    <button type="button" class="btn btn-primary" id="crop-save-btn">Save</button>
 
-    <button type="button" class="btn btn-primary" id="field-save-btn">Save</button>
-
-    <table class="table" id="field-table">
+    <table class="table" id="crop-table">
         <thead class="table-dark">
         <tr>
             <th scope="col">#</th>
-            <th scope="col">Field ID</th>
-            <th scope="col">Field Name</th>
-            <th scope="col">Location</th>
-            <th scope="col">Field Size</th>
-            <th scope="col">Crop Type</th>
-            <th scope="col">Staff</th>
+            <th scope="col">Crop Code</th>
+            <th scope="col">Crop Common Name</th>
+            <th scope="col">Crop Scientific Name</th>
+            <th scope="col">Category</th>
+            <th scope="col">Crop Season</th>
+            <th scope="col">Field</th>
             <th scope="col">Images</th>
             <th scope="col">Functions</th>
+
         </tr>
         </thead>
         <tbody>
         <tr>
             <th scope="row">1</th>
-            <td>F001</td>
-            <td>Rice Palate A</td>
-            <td>Panadura</td>
-            <td>2000</td>
+            <td>C001</td>
             <td>Rice</td>
-            <td>Manager</td>
+            <td>Oryza sativa</td>
+            <td>aromatic</td>
+            <td>mid-September to October</td>
+            <td>Rice A Field</td>
             <td>
                 <button type="button" class="btn btn-primary" id="img-view-btn">View</button>
             </td>
@@ -217,12 +335,12 @@
 
         <tr>
             <th scope="row">2</th>
-            <td>F002</td>
-            <td>Kadala Palate A</td>
-            <td>Kaluthara</td>
-            <td>1000</td>
-            <td>Kadala</td>
-            <td>Senior-Manager</td>
+            <td>C001</td>
+            <td>Rice</td>
+            <td>Oryza sativa</td>
+            <td>aromatic</td>
+            <td>mid-September to October</td>
+            <td>Rice A Field</td>
             <td>
                 <button type="button" class="btn btn-primary" id="img-view-btn2">View</button>
             </td>
@@ -231,6 +349,7 @@
                      alt="delete" id="img-delete-btn2"/>
             </td>
         </tr>
+
         </tbody>
     </table>
 
@@ -238,5 +357,6 @@
 <script src="../assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 <script src="../assets/js/field-management.js"></script>
+<script src="../assets/js/crop-management.js"></script>
 </body>
 </html>
