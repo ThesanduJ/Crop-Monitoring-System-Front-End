@@ -186,10 +186,10 @@ h2 {
     font-weight: normal;
     color: white;
 }
-#img-delete-btn,#img-delete-btn2{
+#img-delete-btn3,#img-delete-btn4{
     filter: brightness(10%);
 }
-#img-delete-btn:hover,#img-delete-btn2:hover{
+#img-delete-btn3:hover,#img-delete-btn4:hover{
     filter: brightness(100%);
 }
 
