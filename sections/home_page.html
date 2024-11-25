@@ -242,7 +242,7 @@
 
 <!--</section>-->
 
-<!------------------crop section------------------>
+<!--&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;crop section&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-->
 <!--<section id="crop-section">-->
 <!--    <div id="crop-heading">-->
 <!--        <h2>Crop Management</h2>-->
@@ -709,7 +709,120 @@
 
 <!--</section>-->
 
+<section id="vehicle-section">
+    <div id="vehicle-heading">
+        <h2>Vehicle Management</h2>
+    </div>
+    <div class="form-floating mb-3" id="vehicle-code">
+        <input type="text" class="form-control " id="floatingInput30" placeholder="">
+        <label for="floatingInput30">Vehicle Code</label>
+        <div id="validationServer03Feedback30" class="invalid-feedback">
+            <!--            error msg-->
+        </div>
+    </div>
 
+    <div class="form-floating mb-3" id="license-plate-number">
+        <input type="text" class="form-control " id="floatingInput31" placeholder="">
+        <label for="floatingInput31">License Plate Number</label>
+        <div id="validationServer03Feedback31" class="invalid-feedback">
+            <!--            error msg-->
+        </div>
+    </div>
+
+    <div class="form-floating mb-3" id="vehicle-category">
+        <input type="text" class="form-control " id="floatingInput32" placeholder="">
+        <label for="floatingInput32">Vehicle Category</label>
+        <div id="validationServer03Feedback32" class="invalid-feedback">
+            <!--            error msg-->
+        </div>
+    </div>
+
+    <div class="form-floating mb-3" id="fuel-type">
+        <input type="text" class="form-control " id="floatingInput33" placeholder="">
+        <label for="floatingInput33">Fuel Type</label>
+        <div id="validationServer03Feedback33" class="invalid-feedback">
+            <!--            error msg-->
+        </div>
+    </div>
+
+    <div class="form-floating mb-3" id="status">
+        <input type="text" class="form-control " id="floatingInput34" placeholder="">
+        <label for="floatingInput34">Status</label>
+        <div id="validationServer03Feedback34" class="invalid-feedback">
+            <!--            error msg-->
+        </div>
+    </div>
+
+        <select class="form-select " aria-label="Default select example" id="allocated-staff-member-details">
+            <option value="" disabled selected>Select the Staff Member</option>
+            <option value="1"></option>
+        </select>
+
+    <div class="form-floating mb-3" id="remarks">
+        <input type="text" class="form-control " id="floatingInput35" placeholder="">
+        <label for="floatingInput35">Remarks</label>
+        <div id="validationServer03Feedback35" class="invalid-feedback">
+            <!--            error msg-->
+        </div>
+    </div>
+
+    <button type="button" class="btn btn-primary" id="vehicle-save-btn">Save</button>
+
+    <div class="table-responsive" id="vehicle-table">
+        <table class="table">
+            <thead class="table-dark">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Vehicle Code</th>
+                <th scope="col">License Plate Number</th>
+                <th scope="col">Vehicle Category</th>
+                <th scope="col">Fuel Type</th>
+                <th scope="col">Status</th>
+                <th scope="col">Allocated Staff Member Details</th>
+                <th scope="col">Remarks</th>
+                <th scope="col">Function</th>
+
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>V001</td>
+                <td>CAB-2356</td>
+                <td>Car</td>
+                <td>Petrol</td>
+                <td>Not Available</td>
+                <td>S001</td>
+                <td>Official Purpose Only</td>
+
+                <td>
+                    <img width="39" height="39" src="https://img.icons8.com/glyph-neue/64/FA5252/delete-trash.png"
+                         alt="delete" id="img-delete-btn9"/>
+                </td>
+            </tr>
+
+            <tr>
+                <th scope="row">1</th>
+                <td>V001</td>
+                <td>CAB-2356</td>
+                <td>Car</td>
+                <td>Petrol</td>
+                <td>Not Available</td>
+                <td>S001</td>
+                <td>Official Purpose Only</td>
+
+                <td>
+                    <img width="39" height="39" src="https://img.icons8.com/glyph-neue/64/FA5252/delete-trash.png"
+                         alt="delete" id="img-delete-btn10"/>
+                </td>
+            </tr>
+
+
+            </tbody>
+        </table>
+    </div>
+
+</section>
 
 <script src="../assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 

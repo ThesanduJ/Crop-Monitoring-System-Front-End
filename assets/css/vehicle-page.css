@@ -1,0 +1,196 @@
+#vehicle-section {
+    width: calc(100vw - 110px);
+    height: 100vh;
+    /*background: rgba(0, 0, 0, 0.47);*/
+    position: absolute;
+    top: 0;
+    left: 110px;
+    bottom: 0;
+    margin: auto;
+}
+
+#vehicle-heading {
+    width: 89%;
+    height: 10%;
+    border-radius: 17px;
+    /*background: rgba(255, 255, 255, 0.58);*/
+    position: absolute;
+    top: 5%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    box-shadow: rgb(59, 228, 119) 0px -50px 36px -28px inset;
+}
+
+h2 {
+    color: #000000;
+    width: fit-content;
+    height: fit-content;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 4%;
+    position: absolute;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
+}
+
+/*------------------------------------------------------------------------------*/
+#vehicle-code {
+    width: 25vw;
+    height: auto;
+    position: absolute;
+    top: 27%;
+    left: 11%;
+    margin: auto;
+}
+
+#vehicle-code > input {
+    border: black solid 2px;
+}
+
+/*------------------------------------------------------------------------------*/
+
+#license-plate-number {
+    width: 25vw;
+    height: auto;
+    position: absolute;
+    top: 27%;
+    left: 40%;
+    margin: auto;
+}
+
+#license-plate-number > input {
+    border: black solid 2px;
+}
+
+/*------------------------------------------------------------------------------*/
+
+#vehicle-category {
+    width: 18vw;
+    height: auto;
+    position: absolute;
+    top: 27%;
+    left: 69%;
+    margin: auto;
+}
+
+#vehicle-category > input {
+    border: black solid 2px;
+}
+
+
+/*------------------------------------------------------------------------------*/
+
+#fuel-type {
+    width: 25vw;
+    height: auto;
+    position: absolute;
+    top: 40%;
+    left: 11%;
+    margin: auto;
+}
+
+#fuel-type > input {
+    border: black solid 2px;
+}
+
+
+/*------------------------------------------------------------------------------*/
+
+#status {
+    width: 25vw;
+    height: auto;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    margin: auto;
+}
+
+#status>input {
+    border: black solid 2px;
+}
+
+/*------------------------------------------------------------------------------*/
+
+
+#allocated-staff-member-details {
+    width: 18vw;
+    /*height: auto;*/
+    position: absolute;
+    top: 40%;
+    left: 69%;
+    margin: auto;
+}
+
+#allocated-staff-member-details {
+    border: black solid 2px;
+}
+
+/*------------------------------------------------------------------------------*/
+
+#remarks {
+    width: 25vw;
+    /*height: auto;*/
+    position: absolute;
+    top: 53%;
+    left: 11%;
+    margin: auto;
+}
+
+#remarks>input {
+    border: black solid 2px;
+}
+
+/*------------------------------------------------------------------------------*/
+
+
+#vehicle-table {
+    width: 86%;
+    height: auto;
+    position: absolute;
+    top: 71%;
+    left: 0;
+    margin: auto;
+    right: 0;
+}
+
+/*------------------------------------------------------------*/
+#vehicle-save-btn {
+    width: 18vw;
+    height: auto;
+    position: absolute;
+    top: 54%;
+    left: 69%;
+    margin: auto;
+
+    background: rgb(59, 228, 119);
+    border-color: rgb(59, 228, 119);
+    color: black;
+}
+
+#vehicle-save-btn:hover {
+    box-shadow: rgb(59, 228, 119) 0px 5px 15px;
+    font-weight: bold;
+}
+
+#vehicle-save-btn:active {
+    box-shadow: 0px 0px 0px;
+    font-weight: normal;
+    color: white;
+}
+
+#img-delete-btn9, #img-delete-btn10 {
+    filter: brightness(10%);
+}
+
+#img-delete-btn9:hover, #img-delete-btn10:hover {
+    filter: brightness(100%);
+}
+
+tbody > tr:hover {
+    border: rgb(59, 228, 119) 2px solid;
+}
