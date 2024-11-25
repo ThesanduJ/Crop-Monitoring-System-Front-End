@@ -16,4 +16,13 @@ parent10.style.height = heightSize3 + "px";
 //--------------------------------------------------------------------
 
 
+document.getElementById('staff').addEventListener('click', function() {
+    document.getElementById('field-section').style.display = 'none';
+    document.getElementById('crop-section').style.display = 'none';
+    document.getElementById('staff-section').style.display = 'block';
+    document.getElementById('log-section').style.display = 'none';
+    document.getElementById('vehicle-section').style.display = 'none';
+    document.getElementById('equipment-section').style.display = 'none';
+    document.getElementById('user-section').style.display = 'none';
+});
 //--------------------------------------------------------------------
