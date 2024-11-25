@@ -149,16 +149,16 @@ h2 {
     margin: auto;
     right: 0;
 }
-#img-view-btn,#img-view-btn2{
+#img-view-btn3,#img-view-btn4{
     background: rgb(59, 228, 119);
     border-color: rgb(59, 228, 119);
     color: black;
 }
-#img-view-btn:hover,#img-view-btn2:hover{
+#img-view-btn3:hover,#img-view-btn4:hover{
     box-shadow: rgb(59, 228, 119) 0px 5px 15px;
     font-weight: bold;
 }
-#img-view-btn:active,#img-view-btn2:active {
+#img-view-btn3:active,#img-view-btn4:active {
     box-shadow:  0px 0px 0px;
     font-weight: normal;
     color: white;
