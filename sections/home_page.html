@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../assets/css/home-page.css">
     <link rel="stylesheet" href="../assets/css/field-page.css">
     <link rel="stylesheet" href="../assets/css/crop-page.css">
+    <link rel="stylesheet" href="../assets/css/staff-page.css">
 </head>
 <body>
 <nav>
@@ -239,124 +240,130 @@
 <!--</section>-->
 
 <!------------------crop section------------------>
-<section id="crop-section">
-    <div id="crop-heading">
-        <h2>Crop Management</h2>
-    </div>
-    <div class="form-floating mb-3" id="crop-id">
-        <input type="text" class="form-control " id="floatingInput7" placeholder="C00A1212212">
-        <label for="floatingInput7">Crop ID</label>
-        <div id="validationServer03Feedback7" class="invalid-feedback">
-            <!--            error msg-->
-        </div>
-    </div>
+<!--<section id="crop-section">-->
+<!--    <div id="crop-heading">-->
+<!--        <h2>Crop Management</h2>-->
+<!--    </div>-->
+<!--    <div class="form-floating mb-3" id="crop-id">-->
+<!--        <input type="text" class="form-control " id="floatingInput7" placeholder="C00A1212212">-->
+<!--        <label for="floatingInput7">Crop ID</label>-->
+<!--        <div id="validationServer03Feedback7" class="invalid-feedback">-->
+<!--            &lt;!&ndash;            error msg&ndash;&gt;-->
+<!--        </div>-->
+<!--    </div>-->
 
-    <div class="form-floating mb-3" id="crop-common-name">
-        <input type="text" class="form-control " id="floatingInput8" placeholder="Rice">
-        <label for="floatingInput8">Crop Common Name</label>
-        <div id="validationServer03Feedback8" class="invalid-feedback">
-            <!--            error msg-->
-        </div>
-    </div>
+<!--    <div class="form-floating mb-3" id="crop-common-name">-->
+<!--        <input type="text" class="form-control " id="floatingInput8" placeholder="Rice">-->
+<!--        <label for="floatingInput8">Crop Common Name</label>-->
+<!--        <div id="validationServer03Feedback8" class="invalid-feedback">-->
+<!--            &lt;!&ndash;            error msg&ndash;&gt;-->
+<!--        </div>-->
+<!--    </div>-->
 
-    <div class="form-floating mb-3" id="crop-scientific-name">
-        <input type="text" class="form-control " id="floatingInput9" placeholder="">
-        <label for="floatingInput9">Crop Scientific Name</label>
-        <div id="validationServer03Feedback9" class="invalid-feedback">
-            <!--            error msg-->
-        </div>
-    </div>
+<!--    <div class="form-floating mb-3" id="crop-scientific-name">-->
+<!--        <input type="text" class="form-control " id="floatingInput9" placeholder="">-->
+<!--        <label for="floatingInput9">Crop Scientific Name</label>-->
+<!--        <div id="validationServer03Feedback9" class="invalid-feedback">-->
+<!--            &lt;!&ndash;            error msg&ndash;&gt;-->
+<!--        </div>-->
+<!--    </div>-->
 
-    <div class="form-floating mb-3" id="crop-category">
-        <input type="text" class="form-control " id="floatingInput10" placeholder="">
-        <label for="floatingInput10">Crop Category</label>
-        <div id="validationServer03Feedback10" class="invalid-feedback">
-            <!--            error msg-->
-        </div>
-    </div>
+<!--    <div class="form-floating mb-3" id="crop-category">-->
+<!--        <input type="text" class="form-control " id="floatingInput10" placeholder="">-->
+<!--        <label for="floatingInput10">Crop Category</label>-->
+<!--        <div id="validationServer03Feedback10" class="invalid-feedback">-->
+<!--            &lt;!&ndash;            error msg&ndash;&gt;-->
+<!--        </div>-->
+<!--    </div>-->
 
-    <div class="form-floating mb-3" id="crop-season">
-        <input type="text" class="form-control" id="floatingInput11" placeholder="">
-        <label for="floatingInput11">Crop Season</label>
-        <div id="validationServer03Feedback11" class="invalid-feedback">
-            <!--            error msg-->
-        </div>
-    </div>
-
-
-    <select class="form-select " aria-label="Default select example" id="crop-field">
-        <option value="" disabled selected>Select the Field</option>
-        <option value="1">Rice A Field</option>
-    </select>
+<!--    <div class="form-floating mb-3" id="crop-season">-->
+<!--        <input type="text" class="form-control" id="floatingInput11" placeholder="">-->
+<!--        <label for="floatingInput11">Crop Season</label>-->
+<!--        <div id="validationServer03Feedback11" class="invalid-feedback">-->
+<!--            &lt;!&ndash;            error msg&ndash;&gt;-->
+<!--        </div>-->
+<!--    </div>-->
 
 
-    <div class="form-floating mb-3" id="crop-image">
-        <input type="file" class="form-control  " id="floatingInput12">
-        <label for="floatingInput12">Crop Image</label>
-        <div id="validationServer03Feedback12" class="invalid-feedback">
-            <!--            error msg-->
-        </div>
-    </div>
+<!--    <select class="form-select " aria-label="Default select example" id="crop-field">-->
+<!--        <option value="" disabled selected>Select the Field</option>-->
+<!--        <option value="1">Rice A Field</option>-->
+<!--    </select>-->
 
-    <button type="button" class="btn btn-primary" id="crop-save-btn">Save</button>
 
-    <table class="table" id="crop-table">
-        <thead class="table-dark">
-        <tr>
-            <th scope="col">#</th>
-            <th scope="col">Crop Code</th>
-            <th scope="col">Crop Common Name</th>
-            <th scope="col">Crop Scientific Name</th>
-            <th scope="col">Category</th>
-            <th scope="col">Crop Season</th>
-            <th scope="col">Field</th>
-            <th scope="col">Images</th>
-            <th scope="col">Functions</th>
+<!--    <div class="form-floating mb-3" id="crop-image">-->
+<!--        <input type="file" class="form-control  " id="floatingInput12">-->
+<!--        <label for="floatingInput12">Crop Image</label>-->
+<!--        <div id="validationServer03Feedback12" class="invalid-feedback">-->
+<!--            &lt;!&ndash;            error msg&ndash;&gt;-->
+<!--        </div>-->
+<!--    </div>-->
 
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <th scope="row">1</th>
-            <td>C001</td>
-            <td>Rice</td>
-            <td>Oryza sativa</td>
-            <td>aromatic</td>
-            <td>mid-September to October</td>
-            <td>Rice A Field</td>
-            <td>
-                <button type="button" class="btn btn-primary" id="img-view-btn3">View</button>
-            </td>
-            <td>
-                <img width="39" height="39" src="https://img.icons8.com/glyph-neue/64/FA5252/delete-trash.png"
-                     alt="delete" id="img-delete-btn3"/>
-            </td>
-        </tr>
+<!--    <button type="button" class="btn btn-primary" id="crop-save-btn">Save</button>-->
 
-        <tr>
-            <th scope="row">2</th>
-            <td>C001</td>
-            <td>Rice</td>
-            <td>Oryza sativa</td>
-            <td>aromatic</td>
-            <td>mid-September to October</td>
-            <td>Rice A Field</td>
-            <td>
-                <button type="button" class="btn btn-primary" id="img-view-btn4">View</button>
-            </td>
-            <td>
-                <img width="39" height="39" src="https://img.icons8.com/glyph-neue/64/FA5252/delete-trash.png"
-                     alt="delete" id="img-delete-btn4"/>
-            </td>
-        </tr>
+<!--    <table class="table" id="crop-table">-->
+<!--        <thead class="table-dark">-->
+<!--        <tr>-->
+<!--            <th scope="col">#</th>-->
+<!--            <th scope="col">Crop Code</th>-->
+<!--            <th scope="col">Crop Common Name</th>-->
+<!--            <th scope="col">Crop Scientific Name</th>-->
+<!--            <th scope="col">Category</th>-->
+<!--            <th scope="col">Crop Season</th>-->
+<!--            <th scope="col">Field</th>-->
+<!--            <th scope="col">Images</th>-->
+<!--            <th scope="col">Functions</th>-->
 
-        </tbody>
-    </table>
+<!--        </tr>-->
+<!--        </thead>-->
+<!--        <tbody>-->
+<!--        <tr>-->
+<!--            <th scope="row">1</th>-->
+<!--            <td>C001</td>-->
+<!--            <td>Rice</td>-->
+<!--            <td>Oryza sativa</td>-->
+<!--            <td>aromatic</td>-->
+<!--            <td>mid-September to October</td>-->
+<!--            <td>Rice A Field</td>-->
+<!--            <td>-->
+<!--                <button type="button" class="btn btn-primary" id="img-view-btn3">View</button>-->
+<!--            </td>-->
+<!--            <td>-->
+<!--                <img width="39" height="39" src="https://img.icons8.com/glyph-neue/64/FA5252/delete-trash.png"-->
+<!--                     alt="delete" id="img-delete-btn3"/>-->
+<!--            </td>-->
+<!--        </tr>-->
+
+<!--        <tr>-->
+<!--            <th scope="row">2</th>-->
+<!--            <td>C001</td>-->
+<!--            <td>Rice</td>-->
+<!--            <td>Oryza sativa</td>-->
+<!--            <td>aromatic</td>-->
+<!--            <td>mid-September to October</td>-->
+<!--            <td>Rice A Field</td>-->
+<!--            <td>-->
+<!--                <button type="button" class="btn btn-primary" id="img-view-btn4">View</button>-->
+<!--            </td>-->
+<!--            <td>-->
+<!--                <img width="39" height="39" src="https://img.icons8.com/glyph-neue/64/FA5252/delete-trash.png"-->
+<!--                     alt="delete" id="img-delete-btn4"/>-->
+<!--            </td>-->
+<!--        </tr>-->
+
+<!--        </tbody>-->
+<!--    </table>-->
+
+<!--</section>-->
+
+<section id="staff-section">
 
 </section>
+
 <script src="../assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 <script src="../assets/js/field-management.js"></script>
 <script src="../assets/js/crop-management.js"></script>
+<script src="../assets/js/staff-management.js"></script>
 </body>
 </html>
