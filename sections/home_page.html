@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="../assets/css/crop-page.css">
     <link rel="stylesheet" href="../assets/css/staff-page.css">
     <link rel="stylesheet" href="../assets/css/log-service-page.css">
+    <link rel="stylesheet" href="../assets/css/vehicle-page.css">
 </head>
 <body>
 <nav>
@@ -594,119 +595,121 @@
 
 <!--</section>-->
 
-<section id="log-section">
-    <div id="log-heading">
-        <h2>Log Service Management</h2>
-    </div>
-    <div class="form-floating mb-3" id="log-code">
-        <input type="text" class="form-control " id="floatingInput26" placeholder="">
-        <label for="floatingInput26">Log Code</label>
-        <div id="validationServer03Feedback26" class="invalid-feedback">
-            <!--            error msg-->
-        </div>
-    </div>
+<!--<section id="log-section">-->
+<!--    <div id="log-heading">-->
+<!--        <h2>Log Service Management</h2>-->
+<!--    </div>-->
+<!--    <div class="form-floating mb-3" id="log-code">-->
+<!--        <input type="text" class="form-control " id="floatingInput26" placeholder="">-->
+<!--        <label for="floatingInput26">Log Code</label>-->
+<!--        <div id="validationServer03Feedback26" class="invalid-feedback">-->
+<!--            &lt;!&ndash;            error msg&ndash;&gt;-->
+<!--        </div>-->
+<!--    </div>-->
 
-    <div class="form-floating mb-3" id="log-date">
-        <input type="date" class="form-control " id="floatingInput27" placeholder="">
-        <label for="floatingInput27">Log Date</label>
-        <div id="validationServer03Feedback27" class="invalid-feedback">
-            <!--            error msg-->
-        </div>
-    </div>
+<!--    <div class="form-floating mb-3" id="log-date">-->
+<!--        <input type="date" class="form-control " id="floatingInput27" placeholder="">-->
+<!--        <label for="floatingInput27">Log Date</label>-->
+<!--        <div id="validationServer03Feedback27" class="invalid-feedback">-->
+<!--            &lt;!&ndash;            error msg&ndash;&gt;-->
+<!--        </div>-->
+<!--    </div>-->
 
-    <div class="form-floating mb-3" id="log-details">
-        <input type="text" class="form-control " id="floatingInput28" placeholder="">
-        <label for="floatingInput28">Log Details</label>
-        <div id="validationServer03Feedback28" class="invalid-feedback">
-            <!--            error msg-->
-        </div>
-    </div>
+<!--    <div class="form-floating mb-3" id="log-details">-->
+<!--        <input type="text" class="form-control " id="floatingInput28" placeholder="">-->
+<!--        <label for="floatingInput28">Log Details</label>-->
+<!--        <div id="validationServer03Feedback28" class="invalid-feedback">-->
+<!--            &lt;!&ndash;            error msg&ndash;&gt;-->
+<!--        </div>-->
+<!--    </div>-->
 
-    <div class="form-floating mb-3" id="observed-image">
-        <input type="file" class="form-control " id="floatingInput29" placeholder="">
-        <label for="floatingInput29">Observed Image</label>
-        <div id="validationServer03Feedback29" class="invalid-feedback">
-            <!--            error msg-->
-        </div>
-    </div>
-
-
-    <select class="form-select " aria-label="Default select example" id="log-field">
-        <option value="" disabled selected>Select the field</option>
-        <option value="1"></option>
-    </select>
-
-    <select class="form-select " aria-label="Default select example" id="log-crop">
-        <option value="" disabled selected>Select the Crop</option>
-        <option value="1"></option>
-    </select>
-
-    <select class="form-select " aria-label="Default select example" id="log-staff">
-        <option value="" disabled selected>Select the Staff</option>
-        <option value="1"></option>
-    </select>
-
-    <button type="button" class="btn btn-primary" id="log-save-btn">Save</button>
-
-    <div class="table-responsive" id="log-table">
-        <table class="table">
-            <thead class="table-dark">
-            <tr>
-                <th scope="col">#</th>
-                <th scope="col">Log Code</th>
-                <th scope="col">Log Date</th>
-                <th scope="col">Log Details</th>
-                <th scope="col">Observed Image</th>
-                <th scope="col">Field</th>
-                <th scope="col">Crop</th>
-                <th scope="col">Staff</th>
-                <th scope="col">Functions</th>
-
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <th scope="row">1</th>
-                <td>L001</td>
-                <td>2022-12-14</td>
-                <td>Observed Crop Growing Process</td>
-                <td>
-                    <button type="button" class="btn btn-primary" id="img-view-btn7">View</button>
-                </td>
-                <td>F001</td>
-                <td>C001</td>
-                <td>S001</td>
-
-                <td>
-                    <img width="39" height="39" src="https://img.icons8.com/glyph-neue/64/FA5252/delete-trash.png"
-                         alt="delete" id="img-delete-btn7"/>
-                </td>
-            </tr>
-
-            <tr>
-                <th scope="row">2</th>
-                <td>L001</td>
-                <td>2022-12-14</td>
-                <td>Observed Crop Growing Process</td>
-                <td>
-                    <button type="button" class="btn btn-primary" id="img-view-btn8">View</button>
-                </td>
-                <td>F001</td>
-                <td>C001</td>
-                <td>S001</td>
-
-                <td>
-                    <img width="39" height="39" src="https://img.icons8.com/glyph-neue/64/FA5252/delete-trash.png"
-                         alt="delete" id="img-delete-btn8"/>
-                </td>
-            </tr>
+<!--    <div class="form-floating mb-3" id="observed-image">-->
+<!--        <input type="file" class="form-control " id="floatingInput29" placeholder="">-->
+<!--        <label for="floatingInput29">Observed Image</label>-->
+<!--        <div id="validationServer03Feedback29" class="invalid-feedback">-->
+<!--            &lt;!&ndash;            error msg&ndash;&gt;-->
+<!--        </div>-->
+<!--    </div>-->
 
 
-            </tbody>
-        </table>
-    </div>
+<!--    <select class="form-select " aria-label="Default select example" id="log-field">-->
+<!--        <option value="" disabled selected>Select the field</option>-->
+<!--        <option value="1"></option>-->
+<!--    </select>-->
 
-</section>
+<!--    <select class="form-select " aria-label="Default select example" id="log-crop">-->
+<!--        <option value="" disabled selected>Select the Crop</option>-->
+<!--        <option value="1"></option>-->
+<!--    </select>-->
+
+<!--    <select class="form-select " aria-label="Default select example" id="log-staff">-->
+<!--        <option value="" disabled selected>Select the Staff</option>-->
+<!--        <option value="1"></option>-->
+<!--    </select>-->
+
+<!--    <button type="button" class="btn btn-primary" id="log-save-btn">Save</button>-->
+
+<!--    <div class="table-responsive" id="log-table">-->
+<!--        <table class="table">-->
+<!--            <thead class="table-dark">-->
+<!--            <tr>-->
+<!--                <th scope="col">#</th>-->
+<!--                <th scope="col">Log Code</th>-->
+<!--                <th scope="col">Log Date</th>-->
+<!--                <th scope="col">Log Details</th>-->
+<!--                <th scope="col">Observed Image</th>-->
+<!--                <th scope="col">Field</th>-->
+<!--                <th scope="col">Crop</th>-->
+<!--                <th scope="col">Staff</th>-->
+<!--                <th scope="col">Functions</th>-->
+
+<!--            </tr>-->
+<!--            </thead>-->
+<!--            <tbody>-->
+<!--            <tr>-->
+<!--                <th scope="row">1</th>-->
+<!--                <td>L001</td>-->
+<!--                <td>2022-12-14</td>-->
+<!--                <td>Observed Crop Growing Process</td>-->
+<!--                <td>-->
+<!--                    <button type="button" class="btn btn-primary" id="img-view-btn7">View</button>-->
+<!--                </td>-->
+<!--                <td>F001</td>-->
+<!--                <td>C001</td>-->
+<!--                <td>S001</td>-->
+
+<!--                <td>-->
+<!--                    <img width="39" height="39" src="https://img.icons8.com/glyph-neue/64/FA5252/delete-trash.png"-->
+<!--                         alt="delete" id="img-delete-btn7"/>-->
+<!--                </td>-->
+<!--            </tr>-->
+
+<!--            <tr>-->
+<!--                <th scope="row">2</th>-->
+<!--                <td>L001</td>-->
+<!--                <td>2022-12-14</td>-->
+<!--                <td>Observed Crop Growing Process</td>-->
+<!--                <td>-->
+<!--                    <button type="button" class="btn btn-primary" id="img-view-btn8">View</button>-->
+<!--                </td>-->
+<!--                <td>F001</td>-->
+<!--                <td>C001</td>-->
+<!--                <td>S001</td>-->
+
+<!--                <td>-->
+<!--                    <img width="39" height="39" src="https://img.icons8.com/glyph-neue/64/FA5252/delete-trash.png"-->
+<!--                         alt="delete" id="img-delete-btn8"/>-->
+<!--                </td>-->
+<!--            </tr>-->
+
+
+<!--            </tbody>-->
+<!--        </table>-->
+<!--    </div>-->
+
+<!--</section>-->
+
+
 
 <script src="../assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 
@@ -714,5 +717,6 @@
 <script src="../assets/js/crop-management.js"></script>
 <script src="../assets/js/staff-management.js"></script>
 <script src="../assets/js/log-management.js"></script>
+<script src="../assets/js/vehicle-management.js"></script>
 </body>
 </html>
