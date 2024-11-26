@@ -16,13 +16,14 @@ parent10.style.height = heightSize3 + "px";
 //--------------------------------------------------------------------
 
 
-document.getElementById('staff').addEventListener('click', function() {
-    document.getElementById('field-section').style.display = 'none';
-    document.getElementById('crop-section').style.display = 'none';
-    document.getElementById('staff-section').style.display = 'block';
-    document.getElementById('log-section').style.display = 'none';
-    document.getElementById('vehicle-section').style.display = 'none';
-    document.getElementById('equipment-section').style.display = 'none';
-    document.getElementById('user-section').style.display = 'none';
+$('#staff').on('click', () => {
+    $('#field-section').css('display', 'none');
+    $('#crop-section').css('display', 'none');
+    $('#staff-section').css('display', 'block');
+    $('#log-section').css('display', 'none');
+    $('#vehicle-section').css('display', 'none');
+    $('#equipment-section').css('display', 'none');
+    $('#user-section').css('display', 'none');
+    $('#dashboard-section').css('display', 'none');
 });
 //--------------------------------------------------------------------

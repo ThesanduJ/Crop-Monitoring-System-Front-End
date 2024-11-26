@@ -5,12 +5,13 @@ const heightSize5=d.offsetHeight;
 const parent16 = document.querySelector("#allocated-staff-member-details");
 parent16.style.height = heightSize5 + "px";
 
-document.getElementById('vehicle').addEventListener('click', function() {
-    document.getElementById('field-section').style.display = 'none';
-    document.getElementById('crop-section').style.display = 'none';
-    document.getElementById('staff-section').style.display = 'none';
-    document.getElementById('log-section').style.display = 'none';
-    document.getElementById('vehicle-section').style.display = 'block';
-    document.getElementById('equipment-section').style.display = 'none';
-    document.getElementById('user-section').style.display = 'none';
+$('#vehicle').on('click', () => {
+    $('#field-section').css('display', 'none');
+    $('#crop-section').css('display', 'none');
+    $('#staff-section').css('display', 'none');
+    $('#log-section').css('display', 'none');
+    $('#vehicle-section').css('display', 'block');
+    $('#equipment-section').css('display', 'none');
+    $('#user-section').css('display', 'none');
+    $('#dashboard-section').css('display', 'none');
 });

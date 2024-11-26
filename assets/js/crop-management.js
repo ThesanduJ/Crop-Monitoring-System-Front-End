@@ -5,12 +5,13 @@ const heightSize2=z.offsetHeight;
 const parent5 = document.querySelector("#crop-field");
 parent5.style.height = heightSize2 + "px";
 
-document.getElementById('crop').addEventListener('click', function() {
-    document.getElementById('field-section').style.display = 'none';
-    document.getElementById('crop-section').style.display = 'block';
-    document.getElementById('staff-section').style.display = 'none';
-    document.getElementById('log-section').style.display = 'none';
-    document.getElementById('vehicle-section').style.display = 'none';
-    document.getElementById('equipment-section').style.display = 'none';
-    document.getElementById('user-section').style.display = 'none';
+$('#crop').on('click', () => {
+    $('#field-section').css('display', 'none');
+    $('#crop-section').css('display', 'block');
+    $('#staff-section').css('display', 'none');
+    $('#log-section').css('display', 'none');
+    $('#vehicle-section').css('display', 'none');
+    $('#equipment-section').css('display', 'none');
+    $('#user-section').css('display', 'none');
+    $('#dashboard-section').css('display', 'none');
 });
