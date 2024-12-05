@@ -32,10 +32,13 @@
         </div>
         <div id="button-div" class="d-grid gap-2 d-md-block container ">
             <button id="login-button" class="btn btn-primary btn-lg container" type="button">Login</button>
-            <button id="signup-button" class="btn btn-primary btn-lg container" type="button">Sign-Up</button>
+            <button id="signup-button" class="btn btn-primary btn-lg container" type="button" onclick="navigateToSignUp()">Sign-Up</button>
         </div>
     </div>
 </section>
 <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script>
+    function navigateToSignUp() { window.location.href = 'sections/signUp-page.html'}
+</script>
 </body>
 </html>
