@@ -71,7 +71,7 @@ h2 {
 
 #equipment-type {
     width: 18vw;
-    /*height: auto;*/
+    height: auto;
     position: absolute;
     top: 27%;
     left: 69%;
@@ -87,7 +87,7 @@ h2 {
 
 #equipment-status {
     width: 25vw;
-    /*height: auto;*/
+    height: auto;
     position: absolute;
     top: 40%;
     left: 11%;
@@ -119,7 +119,7 @@ h2 {
 
 #equipment-field {
     width: 18vw;
-    /*height: auto;*/
+    height: auto;
     position: absolute;
     top: 40%;
     left: 69%;

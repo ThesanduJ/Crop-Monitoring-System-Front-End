@@ -2,8 +2,6 @@
 const parent = document.querySelector("#field-location");
 const x = parent.children[0];
 
-// const x = document.getElementById("field-location");
-
 
 function getLocation() {
     if (navigator.geolocation) {
@@ -46,3 +44,16 @@ parent2.style.height = heightSize + "px";
 const parent3 = document.querySelector("#field-staff");
 parent3.style.height = heightSize + "px";
 //------------------------------------------------------------
+
+$('#field').on('click', () => {
+    $('#field-section').css('display', 'block');
+    $('#crop-section').css('display', 'none');
+    $('#staff-section').css('display', 'none');
+    $('#log-section').css('display', 'none');
+    $('#vehicle-section').css('display', 'none');
+    $('#equipment-section').css('display', 'none');
+    $('#user-section').css('display', 'none');
+    $('#dashboard-section').css('display', 'none');
+});
+////////////////////
+
